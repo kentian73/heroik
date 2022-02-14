@@ -1,43 +1,43 @@
-# V2Ray Heroku
+# V2ray Heroku
 
-**若需部署 V2Ray VLESS，请转到 [vless](https://github.com/bclswl0827/v2ray-heroku/tree/vless) 分支。**
+** To deploy V2Ray Vless, go to [Vless] (https://github.com/bclswl0827/V2RAY-HEROKU/Tree/vless) branch. **
 
-## 概述
+## Overview
 
-本专案用于在 Heroku 上部署 V2Ray WebSocket，在合理使用的程度下，本镜像不会因为大量占用资源而导致封号。
+This item is used to deploy V2RAY Websocket on Heroku. Under the extent to which it is reasonably used, the mirror does not cause the title due to a lot of occupation resources.
 
-部署完成后，每次启动应用时，运行的 V2Ray 将始终为最新版本
+After the deployment is complete, running V2Ray will always be the latest version every time you start the app.
 
-## 部署
+## Deployment
 
-### 步骤
+### step
 
- 1. Fork 本专案到自己的 GitHub 账户（用户名以 `example` 为例）
- 2. 修改专案名称，注意不要包含 `v2ray` 和 `heroku` 两个关键字（修改后的专案名以 `demo` 为例）
- 3. 修改 `README.md`，将 `bclswl0827/v2ray-heroku` 替换为自己的内容（如 `example/demo`）
+1. Fork this item to your own GitHub account (username is `example` is an example
+2. Modify the task name, be careful not to include `v2ray` and` heroku` Two keywords (modified item named `Demo`
+3. Modify `readme.md`, replace the` bclswl0827/v2ray-heroku`, such as `example/demo`)
 
-> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/bclswl0827/v2ray-heroku)
+> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/geeks121/v2ray-hero)
 
- 4. 回到专案首页，点击上面的链接以部署 V2Ray
+ 4. Go back to the project home, click on the link above to deploy V2Ray
 
-### 变量
+### variable
 
-对部署时需设定的变量名称做如下说明。
+The variable name required to be set is as follows.
 
-| 变量 | 默认值 | 说明 |
+| Variable | Default | Description |
 | :--- | :--- | :--- |
-| `ID` | `ad806487-2d26-4636-98b6-ab85cc8521f7` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
-| `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
+| `ID` | `ad806487-2d26-4636-98b6-ab85cc8521f7` | VMess User main ID，For authentication, for uuid format |
+| `WSPATH` | `/` | WebSocket, HTTP protocol path used |
 
-## 接入 CloudFlare
+## Access CloudFlare
 
-以下两种方式均可以将应用接入 CloudFlare，从而在一定程度上提升速度。
+The following two ways can be applied to CloudFlare to increase the speed to a certain extent.
 
- 1. 为应用绑定域名，并将该域名接入 CloudFlare
- 2. 通过 CloudFlare Workers 反向代理
+  1. Bind the domain name for the application, and access the domain name to CloudFlare
+  2. Reverse proxy by CloudFlare Workers
 
-## 注意
+## Notice
 
- 1. **请勿滥用本专案，类似 Heroku 的免费服务少之又少，且用且珍惜**
- 2. 若使用域名接入 CloudFlare，请考虑启用 TLS 1.3
- 3. AWS 绝大部分 IPv4 地址已被 Twitter 屏蔽
+  1. ** Do not abuse this item, similar to the free service of Heroku, less service, and use and cherish **
+  2. If you use the domain name to access the CloudFlare, consider the enabled TLS 1.3
+  3. Most of the IPv4 address of AWS has been masked by Twitter
