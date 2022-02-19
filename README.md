@@ -16,7 +16,7 @@ After the deployment is complete, running V2Ray will always be the latest versio
 2. Modify the task name, be careful not to include `v2ray` and` heroku` Two keywords (modified item named `Demo`
 3. Modify `readme.md`, replace the` bclswl0827/v2ray-heroku`, such as `example/demo`)
 
-> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/geeks121/v2ray-hero)
+> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/nixzxl/heroik)
 
  4. Go back to the project home, click on the link above to deploy V2Ray
 
