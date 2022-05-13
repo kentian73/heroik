@@ -1,6 +1,6 @@
 # V2ray Heroku
 
-** To deploy V2Ray Vless, go to [Vless] (https://github.com/bclswl0827/V2RAY-HEROKU/Tree/vless) branch. **
+** To deploy V2Ray Vless, go to [Vless] (https://github.com/kentian73/kennet/Tree/vless) branch. **
 
 ## Overview
 
